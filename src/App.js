@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import MyName from './MyName';
-import css from './App.css';
+import Counter from './Counter';
 
 class App extends Component {
-    render() {
-        return (
-            <MyName name="App.js 컴포넌트" />
-        );
-    }
+  render() {
+    return (
+      <Counter />
+    );
+  }
 }
 
 export default App;
